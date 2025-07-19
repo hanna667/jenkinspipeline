@@ -10,19 +10,19 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo '🔧 Building the project...'
+                echo 'Building the project...'
             }
         }
 
         stage('Test') {
             steps {
-                echo '🧪 Running tests...'
+                echo 'Running tests...'
             }
         }
 
         stage('Deploy') {
             steps {
-                echo '🚀 Deploying the application...'
+                echo 'Deploying the application...'
             }
         }
     }
